@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS grid</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            grid-column-gap:1em ;
+            grid-row-gap:1em;
+        }
+        .grid-container > div{
+            background: #eee;
+            padding: 1em;
+        }
+        .grid-container > div:nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1>The display Property:</h1>
+
+<div class="grid-container">
+   <div>
+       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam error, nulla corrupti dolorem dolores unde, eos aliquid delectus odit labore modi voluptate! Impedit, unde corporis, autem culpa, ratione odit quod adipisci obcaecati est quam maxime accusamus veritatis ad earum aliquam! Illum excepturi veritatis in reiciendis modi eum! Placeat eaque dicta sit laboriosam velit sed eos vero, doloremque rem necessitatibus consequatur perspiciatis dolor blanditiis reiciendis quibusdam ratione ducimus nulla provident id ipsa error. Rerum, itaque praesentium non illum architecto at?
+   </div>
+
+   <div>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut obcaecati repellendus labore eos asperiores voluptate adipisci amet fuga, deleniti nihil facilis, tenetur error iure dicta minus repellat cum repudiandae laborum!
+   </div>
+
+   <div>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis laboriosam error, nulla corrupti dolorem dolores unde, eos aliquid delectus odit labore modi voluptate! Impedit, unde corporis, autem culpa, ratione odit quod adipisci obcaecati est quam maxime accusamus veritatis ad earum aliquam! Illum excepturi veritatis in reiciendis modi eum! Placeat eaque dicta sit laboriosam velit sed eos vero, doloremque rem necessitatibus consequatur perspiciatis dolor blanditiis reiciendis quibusdam ratione ducimus nulla provident id ipsa error. Rerum, itaque praesentium non illum architecto at?
+</div>
+
+<div>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut obcaecati repellendus labore eos asperiores voluptate adipisci amet fuga, deleniti nihil facilis, tenetur error iure dicta minus repellat cum repudiandae laborum!
+</div>
+
+   
+</div>
+
+
+<p>Set the <em>display</em> property to <em>grid</em> to make a block-level grid container.</p>
+
+
+</body>
+</html>
